@@ -1,4 +1,4 @@
-/*--
+    /*--
 	Author: W3Layouts
 	Author URL: http://w3layouts.com
 	License: Creative Commons Attribution 3.0 Unported
@@ -601,18 +601,35 @@ ul.address li ul.agileits-address-text li a {
 }
 
 .btn-ghost:link, .btn-ghost:visited {
-    border: 1px solid #3f08f5;
-    color: #3f08f5;
+    border: 1px solid #FF5251;
+    color: #FF5251;
 }
 
+.btn-ghost2:link, .btn-ghost2:visited {
+    border: 1px solid #65C500; 
+    color: #65C500;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+/*
 .btn:hover, .btn:active {
-    background-color: #0620ad;
+    background-color: #de6b09;
     
 }
+*/
 
 .btn-ghost:hover, .btn-ghost:active {
-    border: 1px solid #f0c303;
+    border: 1px solid #120c03;
     color: #fff;
+    background-color: #120c03;
+}
+
+.btn-ghost2:hover, .btn-ghost2:active {
+    border: 1px solid #65C500;
+    color: #fff;
+    background-color: #65C500;
+    margin-top: 20px;
 }
 
 /*--services --*/
