@@ -1,0 +1,44 @@
+/** Below is custom styling */
+body {
+  padding-top: 4rem;
+}
+
+.timer-button-div {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timer-button {
+    padding: 25px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 9px #999;
+    height: 250px;
+    width: 250px;
+}
+
+.timings-header {
+    text-align: center;
+}
+
+.timings-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.timer-button:hover {
+    background-color: #3e8e41
+}
+
+.timer-button:active {
+    background-color: #30858e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

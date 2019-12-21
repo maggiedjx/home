@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en" class="gr__getbootstrap_com"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="https://getbootstrap.com/favicon.ico">
+
+    <title>DJX Timer</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../resources/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="timer.css" />
+</head>
+
+<body data-gr-c-s-loaded="true">
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+    
+<main role="main">
+    <div>
+        <div class="timer-button-div">
+            <button class="timer-button" data-bind=
+                "event: {
+                        mousedown: function(data, event){ startTimer() },
+                        touchstart: function(data, event){ startTimer() },
+                        mouseup: function(data, event){ stopTimer() },
+                        touchend: function(data, event){ stopTimer() }
+                  }, text: btnText">
+            </button>
+        </div>
+
+
+        <h2 class="timings-header">Your Timings</h2>
+        <h3 class="timings-header">Your Timings (<span data-bind="text: timerRows().length"></span>)</h3>
+        <table class="timings-table">
+            <thead>
+            <tr>
+                <th>Start</th><th>Stop</th><th>Duration</th>
+            </tr>
+            </thead>
+            <tbody data-bind="foreach: timerRows">
+            <tr>
+                <td><span data-bind="text: startTime"></span></td>
+                <td><span data-bind="text: endTime"></span></td>
+                <td><span data-bind="text: duration"></span></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+
+
+<script src="../resources/js/jquery-3.3.1.slim.min.js"></script>
+<script src="../resources/js/knockout-3.4.2.js"></script>
+<script src="../resources/js/timer.js"></script>
+<script src="../resources/js/bootstrap.bundle.min.js"></script>
+</body></html>
