@@ -557,7 +557,6 @@ ul.address li ul.agileits-address-text li a {
     color: #212121;
     letter-spacing: .5px;
     font-size: 14px;
-    text-transform: capitalize;
     padding-top: 1em;
     padding-bottom: 1em;
     border-top: 1px dashed #646464;
@@ -605,6 +604,13 @@ ul.address li ul.agileits-address-text li a {
     color: #FF5251;
 }
 
+.btn-ghostyellow:link, .btn-ghostyellow:visited {
+    border: 1px solid #ffc20e; 
+    color: #ffc20e;
+    background-color: #fff;
+    margin-top: 20px;
+}
+
 .btn-ghost2:link, .btn-ghost2:visited {
     border: 1px solid #65C500; 
     color: #65C500;
@@ -629,6 +635,13 @@ ul.address li ul.agileits-address-text li a {
     border: 1px solid #65C500;
     color: #fff;
     background-color: #65C500;
+    margin-top: 20px;
+}
+
+.btn-ghostyellow:hover, .btn-ghostyellow:active {
+    border: 1px solid #ffc20e;
+    color: #fff;
+    background-color: #ffc20e;
     margin-top: 20px;
 }
 
